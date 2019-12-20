@@ -1,0 +1,24 @@
+ul{
+    padding: 0;
+    margin: 0;
+}
+li {
+    padding: 0.2rem 1rem;
+    list-style: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+li.touch-me {
+    background: #0088dd;
+    color: white;
+    animation: blinking 1s infinite;
+}
+@keyframes blinking{
+    0%{
+        background-color: red;
+    }
+    100%{
+        background-color: #0088dd;
+    }
+}
